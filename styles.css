@@ -1,0 +1,80 @@
+body {
+    font-family: "Bree Serif", sans-serif;
+    background-color:black;
+
+}
+
+p {
+    color:white;  
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color:white;   
+}
+.container, .results {
+    width: 400px;
+    padding: 10px;
+    margin: 50px auto;
+    border: 5px solid #CC0033;
+    border-radius: 20px;
+    background-color: black;
+    
+    transition: background-color .5s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+.results {
+    display: none;
+}
+
+input, textarea, select, button {
+    letter-spacing: normal;    
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 11px system-ui;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container:hover {
+    background-color: #CC0033;
+    border-color: #CC0033;
+    opacity: 1.0;
+}
+
+.timeTaken,
+.yourName,
+.yourGoal {
+    padding: 10px;
+}
+
+.submit {
+    background-color: #CC0033;
+    padding: 20px;
+    font-size: 18px;
+    color: #000000;
+    border: none;
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+}
+
+.results {
+    display: none;
+    color:white;
+    font-size: 18px;
+}
+.timeTakenVal,
+.yourNameVal,
+.yourGoalVal {
+    color:white;
+}
